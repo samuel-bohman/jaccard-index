@@ -27,11 +27,11 @@ jaccard(df1, 1)
 Data in wide format: 
 
 ```r
-df2 <- data.frame(Q1 = c(1L, 0L), Q2 = c(0L, 1L), Q3 = c(0L, 1L), Q4 = c(1L, 0L), Q5 = c(1L, 1L), Q6 = c(0L, 0L))
+df2 <- data.frame(Q1 = c(1L, 0L), Q2 = c(0L, 1L), Q3 = c(0L, 1L), Q4 = c(1L, 0L), Q5 = c(1L, 1L))
 df2
-#   Q1 Q2 Q3 Q4 Q5 Q6
-# 1  1  0  0  1  1  0
-# 2  0  1  1  0  1  0
+#   Q1 Q2 Q3 Q4 Q5
+# 1  1  0  0  1  1
+# 2  0  1  1  0  1
 
 jaccard(df2, 2)
 # j_index  j_dist 
